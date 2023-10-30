@@ -1,0 +1,61 @@
+{
+    "projects":[
+       {
+        "id": 0,
+        "project_name": "Random Quote Generator",
+        "description": "Application displays a random quote when 'generate' button is pressed or every five seconds automatically." ,
+        "technologies": ["HTML", "JavaScript", "CSS", "GitHub"],
+        "live_link": "https://pnmejia17.github.io/a_random_quote_generator-v1/",
+        "github_link": "https://github.com/pnmejia17/a_random_quote_generator-v1",
+        "image_urls": [
+            "/static/images/proj0-img1.png",
+            "/static/images/proj0-img2.png"]
+       },
+       {
+        "id": 1,
+        "project_name": "Data Pagination",
+        "description": "Displays students contact cards - including their picture, name, email, and date joined - across different pages" ,
+        "technologies": ["HTML", "JavaScript", "CSS", "GitHub"],
+        "live_link": "https://pnmejia17.github.io/data-pagination-and-filtering-v1/",
+        "github_link": "https://github.com/pnmejia17/data-pagination-and-filtering-v1",
+        "image_urls": [
+            "/static/images/proj1-img1.png",
+            "/static/images/proj1-img2.png"]
+       },
+       {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "Conference sign-up form with visual form validators" ,
+        "technologies": ["HTML", "JavaScript", "CSS", "GitHub"],
+        "live_link": "https://pnmejia17.github.io/interactive-form-v3/",
+        "github_link": "https://github.com/pnmejia17/interactive-form-v3",
+        "image_urls": [
+            "/static/images/proj2-img1.png",
+            "/static/images/proj2-img2.png"]
+       },
+       {
+        "id": 3,
+        "project_name": "OOP Game Show App",
+        "description": "Interactive phrase guessing game with win and lose screens" ,
+        "technologies": ["HTML", "JavaScript", "CSS", "GitHub"],
+        "live_link": "https://pnmejia17.github.io/oop_game-v2/",
+        "github_link": "https://github.com/pnmejia17/oop_game-v2",
+        "image_urls": [
+            "/static/images/proj3-img1.png",
+            "/static/images/proj3-img2.png"]
+       },
+       {
+        "id": 4,
+        "project_name": "Public API Requests",
+        "description": "Application makes a public API request at every refresh and displays response as user cards. Detail modal view displayed on click." ,
+        "technologies": ["HTML", "JavaScript", "CSS", "GitHub"],
+        "live_link": "https://pnmejia17.github.io/oop_game-v2/",
+        "github_link": "https://github.com/pnmejia17/public-api-requests",
+        "image_urls": [
+            "/static/images/proj4-img1.png",
+            "/static/images/proj4-img3.png"
+        ]
+       }
+    ]
+
+}
