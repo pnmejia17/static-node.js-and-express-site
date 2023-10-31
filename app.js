@@ -13,6 +13,7 @@ app.set('view engine', 'pug')
 app.use('/static', express.static(path.join(__dirname, 'public')))
 
 //set routes
+
 app.get('/', (req, res) => {
     res.locals.projects = data.projects
     res.render('index')
@@ -22,9 +23,10 @@ app.get('/about', (req, res) => {
     res.render('about')
 })
 
-app.get('/project/:id', (req, res) => {
+app.get('/project/:id', (req, res, next) => {
     const projID = req.params.id
     const projects = data.projects
+    
     const project = projects.find(({id}) => id === +projID)
 
     if (project) {
@@ -34,7 +36,6 @@ app.get('/project/:id', (req, res) => {
         error.message = 'The page you are looking does not exist. Sorry!'
         error.status = 404
         next(error)
-
     }
 })
 
@@ -47,6 +48,7 @@ app.listen(3000, () => {
 //error handling
 
 // 404 error handler
+
 app.use((req, res, next) => {
     const error = new Error('404 Error')
     error.message = 'The page you are looking does not exist. Sorry!'
